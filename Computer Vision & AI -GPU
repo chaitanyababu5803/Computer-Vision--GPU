@@ -1,0 +1,26 @@
+Job description
+We are seeking a Software Engineer Computer Vision & AI with strong software engineering skills and deep expertise in computer vision and AI. You will design, develop, and optimize advanced vision solutions, taking them from prototypes to production-ready deployments in cloud and on-prem environments. This role requires strong proficiency in Python, cloud deployment, and containerized workflows, with the ability to handle complex real-world datasets from images, videos, and LiDAR sensors.
+
+Responsibilities
+
+Develop and maintain high-performance computer vision applications using Python and C++.
+Implement and optimize algorithms for image, video, and LiDAR-based analysis using frameworks like OpenCV, PyTorch, and related libraries.
+Optimize vision pipelines for real-time performance on GPUs, vision accelerators, and edge devices.
+Build scalable and containerized solutions using Docker and deploy them on cloud platforms (AWS, Azure, GCP).
+Collaborate with cross-functional teams to integrate vision modules into larger AI/ML workflows and production systems.
+Troubleshoot, debug, and enhance existing codebases for efficiency, scalability, and robustness.
+Ensure best practices in software design, coding standards, and CI/CD pipelines.
+Qualifications
+Must Have:
+Advanced proficiency in Python (including async programming, generators, multiprocessing, and design patterns).
+Strong experience in Computer Vision libraries such as OpenCV, PyTorch, or TensorFlow.
+Proficiency in C++ for performance-critical modules.
+Hands-on experience with GPU acceleration and CUDA or equivalent frameworks.
+Strong expertise in Docker for containerization and cloud deployment (AWS, Azure, or GCP).
+Familiarity with parallel and concurrent programming.
+Strong understanding of Linux systems and performance optimization.
+Knowledge of best practices for clean, maintainable, and production-ready code.
+Good to Have:
+Experience with visual-SLAM or LiDAR-based SLAM systems.
+Knowledge of bpy (Blender Python API) scripting for automation and 3D workflows.
+Experience with robotics frameworks (ROS/ROS2) or real-time sensor data processing.
