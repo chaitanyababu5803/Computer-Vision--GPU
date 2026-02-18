@@ -11,6 +11,7 @@ Collaborate with cross-functional teams to integrate vision modules into larger 
 Troubleshoot, debug, and enhance existing codebases for efficiency, scalability, and robustness.
 Ensure best practices in software design, coding standards, and CI/CD pipelines.
 Qualifications
+
 Must Have:
 Advanced proficiency in Python (including async programming, generators, multiprocessing, and design patterns).
 Strong experience in Computer Vision libraries such as OpenCV, PyTorch, or TensorFlow.
@@ -20,7 +21,54 @@ Strong expertise in Docker for containerization and cloud deployment (AWS, Azure
 Familiarity with parallel and concurrent programming.
 Strong understanding of Linux systems and performance optimization.
 Knowledge of best practices for clean, maintainable, and production-ready code.
+
 Good to Have:
 Experience with visual-SLAM or LiDAR-based SLAM systems.
 Knowledge of bpy (Blender Python API) scripting for automation and 3D workflows.
 Experience with robotics frameworks (ROS/ROS2) or real-time sensor data processing.
+
+********************************************
+Computer-Vision GPU
+For computer vision tasks, NVIDIA GPUs are generally preferred due to the robust CUDA ecosystem and specialized hardware like Tensor Cores, which accelerate deep learning workloads. The ideal GPU depends on your specific workload, budget, and scalability needs. 
+
+Key Features to Consider
+When choosing a GPU for computer vision, prioritize the following characteristics: 
+
+VRAM (Video Memory) Amount: Crucial for handling large datasets and models (e.g., high-resolution images, large neural networks). More VRAM allows you to train larger models or use larger batch sizes.
+CUDA Cores/Stream Processors: These are the individual processing units that perform parallel calculations. More cores mean faster parallel processing, which is fundamental to deep learning.
+Tensor Cores: NVIDIA GPUs feature these specialized cores designed to accelerate matrix operations, which are at the heart of AI and deep learning computations, significantly speeding up training and inference.
+Memory Bandwidth: Determines how quickly data can move in and out of the VRAM. High bandwidth is vital to prevent bottlenecks when processing large volumes of data.
+Software Ecosystem: NVIDIA's CUDA platform provides extensive, highly-optimized libraries (cuDNN, TensorRT) and broad framework support (TensorFlow, PyTorch). AMD's ROCm is an open-source alternative but has less mature support across all frameworks.
+Precision Support: Modern GPUs support various precision formats (FP32, FP16, FP8) which affect speed and memory usage. Ensure the GPU supports the precision level required by your models. 
+Rental Plaza
+
+Recommended NVIDIA GPUs
+NVIDIA dominates the computer vision market with a range of options for different needs, from personal projects to enterprise-scale operations. 
+Fluence Network
+
+Asus Rog Strix GeForce RTX 4090 White OC Edition
+
+An excellent and cost-effective option for individual developers and small to medium-scale projects, offering powerful performance with 24 GB of GDDR6X VRAM.
+PNY NVIDIA RTX 6000 Ada Quadro RTX 6000 48 GB
+
+A professional-grade GPU with 48 GB of ECC (Error Correction Code) GDDR6 memory, designed for stability and reliability in production environments and large-scale AI tasks such as fine-tuning foundation models.
+NVIDIA Tesla A100 Ampere 40 GB Graphics Processor Accelerator - PCIe 4.0 x16 - Dual Slot
+
+Ubuy
+Built for data centers and high-performance computing (HPC), it offers up to 80 GB of HBM2e memory with exceptional bandwidth and Multi-Instance GPU (MIG) support for large-scale training of massive models.
+PNY NVIDIA RTX 4000 Ada Generation Graphics Card
+
+A strong mid-range professional option with 20GB GDDR6 memory that balances performance, energy efficiency, and a compact form factor, making it suitable for many professional workstations. 
+
+AMD Options
+While less dominant, AMD offers competitive hardware, especially for budget-conscious users or those preferring an open-source ecosystem. 
+
+Sapphire Nitro+ RX 7900 XTX Vapor-X OC Graphics Card
+Sapphire Nitro+ RX 7900 XTX Vapor-X OC Graphics Card
+₹98,300.00
+Aarna Computers& more
+4.6
+(409)
+AMD's flagship consumer GPU provides 24 GB of GDDR6 memory and strong raw performance, with growing support for AI frameworks via the ROCm platform. It offers a high memory capacity which can be an advantage for specific memory-intensive workloads. 
+
+********************************************
